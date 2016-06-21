@@ -70,7 +70,7 @@ module.exports = {
         var labelEl = document.querySelector('label[for="' + inputID + '"]')
 
         if (!labelEl) {
-          return
+          continue
         }
 
         showHideLabel(inputEl, labelEl)
